@@ -1,0 +1,87 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#000000"
+		android:orientation="horizontal">
+		<EditText
+			android:id="@+id/URLTextbox"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Enter URL here"
+			android:textSize="25sp"
+			android:textStyle="italic"
+			android:textColor="#FFFFFF"
+			android:hint="Edit Text"
+			android:textColorHint="#607D8B" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#000000"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/GoBack"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#000000"
+			android:text="Go Back"
+			android:textSize="25sp"
+			android:textStyle="italic"
+			android:textColor="#FFFFFF" />
+		<Button
+			android:id="@+id/SearchButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#000000"
+			android:text="Go"
+			android:textSize="30sp"
+			android:textStyle="italic"
+			android:textColor="#FFFFFF" />
+		<Button
+			android:id="@+id/GoForward"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#000000"
+			android:text="Go Forward"
+			android:textSize="25sp"
+			android:textStyle="italic"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/linear7"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#000000"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/SettingsButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#000000"
+			android:text="Settings (SOON)"
+			android:textSize="25sp"
+			android:textStyle="italic"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+	<WebView
+		android:id="@+id/Main_WebView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+</LinearLayout>
