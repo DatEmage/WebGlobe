@@ -14,4 +14,4 @@ It's pretty simple. Download the latest .apk from the releases tab and run it
 If you wanna contribute to the project, make sure to compile and test the browser before creating a pull request
 
 # Requirements
-Adding soon lol
+Android 5.1+
